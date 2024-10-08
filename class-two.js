@@ -43,3 +43,11 @@
 //         console.log('Você está aprovado')
 //     else (nota === 10)
 //         console.log("Seu desempenho é excelente")
+
+// switch case
+const fruit = 'Morango'
+switch (fruit) {
+    case 'Laranja' : return console.log('Vc é de boas');
+    case 'Morango' : return console.log('Vc é de romantico');
+    default: return console.log('Não temos o significado dessa fruta');
+}
