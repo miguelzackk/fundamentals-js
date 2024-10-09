@@ -52,7 +52,7 @@
 //     default: return console.log('Não temos o significado dessa fruta');
 // }
 
-// lição de casacls
+// lição de casa
 const nota = 11
 switch (true) {
     case (nota <4) : return console.log('Você está reprovado.');
