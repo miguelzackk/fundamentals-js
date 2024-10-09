@@ -45,9 +45,19 @@
 //         console.log("Seu desempenho é excelente")
 
 // switch case
-const fruit = 'Morango'
-switch (fruit) {
-    case 'Laranja' : return console.log('Vc é de boas');
-    case 'Morango' : return console.log('Vc é de romantico');
-    default: return console.log('Não temos o significado dessa fruta');
+// const fruit = 'Morango'
+// switch (fruit) {
+//     case 'Laranja' : return console.log('Vc é de boas');
+//     case 'Morango' : return console.log('Vc é de romantico');
+//     default: return console.log('Não temos o significado dessa fruta');
+// }
+
+// lição de casacls
+const nota = 11
+switch (true) {
+    case (nota <4) : return console.log('Você está reprovado.');
+    case (nota >= 4 && nota <= 5) : return console.log('Você está de recuperação');
+    case (nota >6 && nota <= 9) : return console.log('Você está aprovado.');
+    case (nota === 10) : return console.log('Seu desempenho é excelente');
+    default: return console.log('Sua nota não é válida.');
 }
