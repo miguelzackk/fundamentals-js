@@ -11,9 +11,11 @@
 //     }
 
 // Exercício 3
-// let numero = 1
-// numero = numero + 1 (int++)
-// console.log(int++)
+// let num = 0;
+// for (let i = 1; i <= 100; i++) {
+//     num += i;
+// }
+// console.log(num);
 
 // Exercício 4
 // let frutas = [
