@@ -50,7 +50,50 @@
 
 
 // FUNÇÃO DINÂMICA
-function DynaSomar (a, b){
-    return a + b
-}
-console.log(DynaSomar(10, 200))
+// function DynaSomar (a, b){
+//     return a + b
+// }
+// console.log(DynaSomar(10, 200))
+
+// function NumberX(num) {
+//     if(num % 2 == 0) {
+//         return `${num} eu sou par`
+//     } else {
+//         return num + "Eu sou ímpar"
+//     }
+// }
+
+// console.log(NumberX(4))
+
+// function ShortName (fullName) {
+//     const splitName = fullName.split(' ')
+//     const [firstName, ...rest] = splitName
+//     const lastName = rest[rest.length -1]
+    
+//     return console.log(`${firstName} ${lastName}`)
+// }
+
+// ShortName('Maria Jose dos Santos')
+
+// const name = 'João Doria Bosla'
+// const transform = name.split(' ')
+
+// const [firstName, ...rest] = transform
+
+// function ResponseBool(bool) {
+//     return bool ? "yes" : "no"
+// }
+
+// console.log(ResponseBool(false))
+
+//Anonimas
+// const exampleAnonimo = function() {
+//     console.log('sou uma função anonima')
+// }
+// exampleAnonimo()
+
+//Arrow
+// const arrowFunction = () => {
+//     return console.log('Sou uma arrow function')
+// }
+// arrowFunction()
