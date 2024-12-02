@@ -25,17 +25,21 @@
 // }
 // }
 
-const products = [{
-    name: 'Camiseta',
-    price: 25
-}, {
-    name: 'Calça',
-    price: 60
-}, {
-    name: 'Chapéu',
-    price: 15
-}]
+const products = [
+  {
+    name: "Camiseta",
+    price: 25,
+  },
+  {
+    name: "Calça",
+    price: 60,
+  },
+  {
+    name: "Chapéu",
+    price: 15,
+  },
+];
 
 for (let product of products) {
-    console.log(product.name  + ' custa ' +  product.price  + ' reais')
+  console.log(product.name + " custa " + product.price + " reais");
 }

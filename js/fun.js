@@ -16,6 +16,6 @@
 // console.log(saudacao)
 
 function FirstName(fullName) {
-    return `Olá, ${fullName.split(' ')[0]} tudo bem?`
+  return `Olá, ${fullName.split(" ")[0]} tudo bem?`;
 }
-console.log(FirstName('Mauricio de Souza'))
+console.log(FirstName("Mauricio de Souza"));

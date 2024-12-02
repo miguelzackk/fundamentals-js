@@ -53,11 +53,16 @@
 // }
 
 // lição de casa
-const nota = 11
+const nota = 11;
 switch (true) {
-    case (nota <4) : return console.log('Você está reprovado.');
-    case (nota >= 4 && nota <= 5) : return console.log('Você está de recuperação');
-    case (nota >6 && nota <= 9) : return console.log('Você está aprovado.');
-    case (nota === 10) : return console.log('Seu desempenho é excelente');
-    default: return console.log('Sua nota não é válida.');
+  case nota < 4:
+    return console.log("Você está reprovado.");
+  case nota >= 4 && nota <= 5:
+    return console.log("Você está de recuperação");
+  case nota > 6 && nota <= 9:
+    return console.log("Você está aprovado.");
+  case nota === 10:
+    return console.log("Seu desempenho é excelente");
+  default:
+    return console.log("Sua nota não é válida.");
 }

@@ -48,12 +48,11 @@
 // }
 // console.log(Somar())
 
-
 // FUNÇÃO DINÂMICA
-function DynaSomar (a, b){
-    return a + b
+function DynaSomar(a, b) {
+  return a + b;
 }
-console.log(DynaSomar(10, 200))
+console.log(DynaSomar(10, 200));
 
 // function NumberX(num) {
 //     if(num % 2 == 0) {
@@ -65,15 +64,15 @@ console.log(DynaSomar(10, 200))
 
 // console.log(NumberX(4))
 
-function ShortName (fullName) {
-    const splitName = fullName.split(' ')
-    const [firstName, ...rest] = splitName
-    const lastName = rest[rest.length -1]
-    
-    return console.log(`${firstName} ${lastName}`)
+function ShortName(fullName) {
+  const splitName = fullName.split(" ");
+  const [firstName, ...rest] = splitName;
+  const lastName = rest[rest.length - 1];
+
+  return console.log(`${firstName} ${lastName}`);
 }
 
-ShortName('Maria Jose dos Santos')
+ShortName("Maria Jose dos Santos");
 
 // const name = 'João Doria Bosla'
 // const transform = name.split(' ')

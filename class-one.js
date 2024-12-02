@@ -103,7 +103,6 @@
 // const nameRule = arrayRemember[0] + ' ' + arrayRemember[arrayRemember.length - 1];
 // console.log(nameRule)
 
-
 // console.log(arrayRemember[1], 'segundo item de um array')
 
 // // usando metodo push
